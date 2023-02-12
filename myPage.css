@@ -48,15 +48,21 @@ button {
 button:focus {
   outline: 0;
 }
-
+ul {
+  margin: auto;
+}
 button:hover {
   cursor: pointer;
 }
 
 /* 리스트 */
 .list {
-  float: left 50%;
-  margin: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 240px;
+  display: inline-block;
 }
 
 .list .item {

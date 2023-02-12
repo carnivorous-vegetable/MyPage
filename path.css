@@ -26,6 +26,14 @@ li {
   text-align: center;
 }
 
+.list {
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -41,12 +49,12 @@ ul {
 
 /* 리스트 시작 */
 .item .num {
-  width: 26px;
-  height: 26px;
-  background-color: #72efca;
+  width: 30px;
+  height: 28px;
+  background-color: #caffef;
   color: #485762;
   border-radius: 50%;
-  padding: 5px 10px;
+  padding: 3px 10px;
   box-sizing: border-box;
   margin-right: 20px;
 }

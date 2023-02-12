@@ -35,14 +35,6 @@ h1.title {
   border-width: 50%;
 }
 
-.line {
-  width: 32px;
-  height: 1px;
-  border-bottom: 1px solid #ffe6cf;
-  margin: 32px 0;
-  opacity: 0.3;
-}
-
 .content {
   font-size: 16px;
   font-weight: normal;
