@@ -1,17 +1,21 @@
-.featured {
-  height: 310px;
-  position: relative;
-  background-size: 100% 100%;
+.text-area {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  margin-top: 124px;
+  margin-bottom: 100px;
+  text-align: center;
+  border-bottom: 0.0625rem solid #d1d1d1;
 }
-
 .goMyPage {
   position: absolute;
   top: 30px;
   right: 26px;
 }
 li {
-  position: relative;
+  position: absolute;
   text-align: center;
+  top: 120px;
 }
 .text-area {
   margin: 24px;
@@ -21,16 +25,11 @@ li {
   width: auto;
 }
 
-.featured .title {
-  margin-bottom: 12px;
-  text-align: center;
-}
-
 .list {
   width: 500px;
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 300px;
   transform: translate(-50%, -50%);
 }
 
