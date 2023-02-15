@@ -33,9 +33,6 @@
   animation-delay: 0.35s;
 }
 
-/* --- 아이템이 오른쪽에서 나타나는 애니메이션  */
-/* issue.html에서 swiper아이템에 적용함 */
-/* like.html의 아이템에 적용함 */
 @keyframes showItemFromRight {
   from {
     transform: translateX(30px) scaleX(1.1);

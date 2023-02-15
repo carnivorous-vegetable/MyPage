@@ -39,7 +39,7 @@ button {
   font-weight: bold;
   border-radius: 20px;
   position: absolute;
-  top: 70%;
+  top: 600px;
   left: 50%;
   transform: translate(-50%, -50%);
   transition: 0.3s;
@@ -57,9 +57,9 @@ button:hover {
 
 /* 리스트 */
 .list {
-  position: absolute;
+  position: relative;
   left: 50%;
-  top: 50%;
+  top: 40px;
   transform: translate(-50%, -50%);
   width: 240px;
   display: inline-block;

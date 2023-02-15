@@ -1,0 +1,36 @@
+* {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+body {
+  margin: 20px;
+}
+.goMyPage {
+  position: absolute;
+  top: 30px;
+  right: 26px;
+}
+
+.text-area {
+  margin: 50px;
+  margin-top: 80px;
+  text-align: center;
+  border-bottom: 0.0625rem solid #f2f2f2;
+}
+.detail_img {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.content {
+  word-spacing: 5px;
+  word-break: normal;
+  font-size: 15px;
+  padding-top: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
